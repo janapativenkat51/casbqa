@@ -1,0 +1,174 @@
+1. ArrayListStringsReverse = 
+   {"venkata","Ramana"}
+   o/p= {"ataknev","anamaR"}
+    approach -  another array list needed to append after reverse
+	          - temp var to reverse the string to append character by character
+			  - another string in loop to get create the character array
+			  
+			  methods
+			  = size()
+			  char[] chars= str.toCharArray()
+			  
+2. int Array sort
+
+       1.  two for loops
+	   2.  j=i+1 -- from next element comparision
+	   3. swap
+     We can find the array length in Java by using the array attribute length.
+	 
+	 
+3.Array to Array list conversion?
+    1. Intereger object array declare
+	2. Arrays.toString(arr) to print elements
+	2. Arrays.asList(arr) - list conversion parse this to arrayList
+	4. arrlist.add(7)
+	
+	other methods
+	arr2.addAll(arrl2);
+4. Capital to Small
+   1. String to characterArray conversion
+   2. length keyword
+   3. (int)arr[i]>=65) Conversion ((int)arr[i]<=90)
+   4. Again converting to character - (char) ((int)arr[i]+ 32);
+5. CharactersCount of specrific character 
+   hello - l count is 2
+    1. character array
+	2. count int variable with 0
+	3. char variable - l 
+6. Reverse of String 
+    1.   for loop with length-1 in reverse
+	
+	Approach2:
+	 1. read from keyboard - system.in
+	 2. ReadLine and character array
+	 3. String str = s.nextLine();
+	 4. and using length
+		char c[] = str.toCharArray();
+   appraoch3:
+   1. StringBuilder sb = new StringBuilder();
+   2. Convert string to character Array
+   3. sb.append(chars[i]); //reverse of for loop
+   
+   approach4:
+        StringBuffer sb = new StringBuffer(str);
+		System.out.println(sb.reverse());
+		String strrev = sb.reverse().toString();
+   
+7. String is Polindrome
+   str.equals(rev)
+
+8. Duplicate character removing
+     StringBuilder s=new StringBuilder();  // to append the character
+	 1.  Take one string  - Programming
+	 2. String Builder
+	 3. Set - Set<Character> set = new LinkedHashSet();
+	 4. str.charAt(i) - character reading and set.add to add
+	 5. to character coversion print String builder 
+	         for ( Character c:set)
+			 a.append(c) -//append string method
+			 
+		Appraoch2:
+		1. Two for loops
+		if(ch[i]==ch[j])
+        {
+            ch[i]=' ';
+        }
+		3. print with continue in if while you find ' '
+			 
+9. Given number Prime Number or not 
+    1. Count declartion
+	2. count = 1 and division by 2
+	3. condition - count == 2 then it is prime
+	
+	
+10.  Prime numbers in a given range
+     1. Two for loops
+	     count declare in after first for loop
+	 2.  for ( int j=1;j<=i/2;j++)
+	 
+11. Word count in a string 
+    1. String to character array
+	2. Count=1
+	3. if character == ' ' then incerement the count ++
+	
+	approach2: 
+	1. str.charAt(i)== ' ' and str.charAt(i+1)!= ' '
+	2. increment count from 1
+12.VowelsPresentInStringOrNot
+    1. Convert to lowerCase
+	2. Reg ex: matches(".*[aeiou].*")
+   str.toLowerCase().matches(".*[aeiou].*")
+   
+13. Two Strings merging
+    1. Merge str3=str1+str2
+	Approach2:
+    1. charcter by character merging
+	2. Character array conversion of second string 
+	    str1=str1++ch2[j];
+14. swap 
+   b=a+b-(b=a);
+15. Word Sort
+     "la#ake^9B"
+	 1. String to character array conversion
+	 2. two for loops
+	   3.  j=i+1 -- from next element comparision
+	   4. swap
+16.Reversenumber 
+	 1. while loop num>0
+	 2. Reminder with percentile
+	 3. append to reverse varible
+	 4. num=num/10
+17: RemoveSpecialChar
+"Venkata @^Ramana"
+(str.charAt(i)>=65 && str.charAt(i)<=90) || (str.charAt(i)>=97 && str.charAt(i)<=122)
+18. Sum of 10 Recursion
+    if (k > 0) {
+			return k = k + sum(k - 1);
+
+19. Protected Class
+20 . Private Class
+
+21: Number is Polindrome
+    while (num!=0) { rev = num % 10; sum= sum + rev; num = num / 10; }
+22. Object Integer value getting
+   Integer j=100;
+ i.intValue();
+ System.out.println(i.intValue());
+ 
+23.
+I have another simple solution that for suppose 
+int num=10;
+String str ="";
+str=str+num;
+S.o.pln(str);
+
+24. printing string array values 
+ for (String s:str)
+    {
+    	System.out.println("Second values is " + s);
+    }
+25. Java 8 static method able to access from java 7 with object ?? why
+
+26. Fibonacci of 10 count
+     1. Print 0 and 1
+	 2. while( 2<10)
+	 3.  add i and j 
+	     print and increase count
+27. consonents printing ??
+    hello 
+	hl should print
+22. Missing number in an array
+   
+7. Duplicate character removing	 
+   without collections
+6. Consonents Prinintg 
+     take String reg = "aeiouAEIOU";
+	 
+   
+6. Factorial Recursion 
+	
+9. CharactersCount of specific character in a String
+
+10.int array to arraylist conversion 
+   int to string conversion 
+   then add each add using for loop in array list with add
