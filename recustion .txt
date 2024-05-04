@@ -1,0 +1,15 @@
+1. What kinnd automation tool you worked ?
+   UI and API Automation testing
+   UI - Selenium and Java
+   API - Postman for Manual also automation
+   Peformance testing - JMeter
+   CI/CD- Git is version control tool 
+   Maven - Build Tool
+   Jenkins - Continuos integration tool
+   Framework - DataDriven Framework and TestNG
+   and we are following agile methodolocy 
+   
+   
+   
+   
+Gradle and Maven fundamentally differ in their approach to builds. Gradle operates based on a graph of task dependencies, with tasks performing the work. Conversely, Maven adopts a fixed, linear model of phases, assigning goals to project phases. These goals, like Gradle's tasks, are the “workhorses.”
